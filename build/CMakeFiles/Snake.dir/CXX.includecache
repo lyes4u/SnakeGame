@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/Grid.h
+Object.h
+../includes/Object.h
+vector
+-
+stdlib.h
+-
+curses.h
+-
+signal.h
+-
+unistd.h
+-
+
+../includes/Object.h
+string
+-
+utility
+-
+
+../includes/Snake.h
+Object.h
+../includes/Object.h
+deque
+-
+utility
+-
+
+/home/nirvana4u/c++/snake/Snake_game/console/src/main.cpp
+iostream
+-
+Grid.h
+/home/nirvana4u/c++/snake/Snake_game/console/src/Grid.h
+Snake.h
+/home/nirvana4u/c++/snake/Snake_game/console/src/Snake.h
+

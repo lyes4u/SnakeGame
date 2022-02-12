@@ -1,0 +1,3 @@
+/home/nirvana4u/c++/snake/Snake_game/console/src/models/build/CMakeFiles/rebuild_cache.dir
+/home/nirvana4u/c++/snake/Snake_game/console/src/models/build/CMakeFiles/models.dir
+/home/nirvana4u/c++/snake/Snake_game/console/src/models/build/CMakeFiles/edit_cache.dir
