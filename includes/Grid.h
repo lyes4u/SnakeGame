@@ -18,13 +18,13 @@ class Grid{
         Grid(const int size = 5);
         ~Grid();
         void gameLoop();
-       
+        
     private : 
         Cherry * cherry;
         Snake * snake;
         std::vector<std::vector <Object > >  grid;
         int size; // size of the game grid
-
+        
         void view();
         void moveSnake(direction way);
         void infoSnake();

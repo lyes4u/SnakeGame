@@ -102,6 +102,11 @@ void Grid::putObject(){ // Put a new cherry in random position -----------------
     cherry = new Cherry(x,y);
     putObject(x, y, *cherry);
 
+    static int refreshTimeMs = 200;
+    refreshTimeMs -= 2;
+    wtimeout(stdscr, refreshTimeMs);
+    
+
 } // ----------------------------------------------------------------------------------------
 void Grid::moveSnake(direction way){ // Move snake to some direction ------------------------
     
