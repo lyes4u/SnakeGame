@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmodels.a  CMakeFiles/models.dir/Grid.cpp.o CMakeFiles/models.dir/Snake.cpp.o CMakeFiles/models.dir/Cherry.cpp.o CMakeFiles/models.dir/Object.cpp.o
-/usr/bin/ranlib libmodels.a

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libobjects.so -o libobjects.so CMakeFiles/objects.dir/Grid.cpp.o CMakeFiles/objects.dir/Snake.cpp.o CMakeFiles/objects.dir/Cherry.cpp.o CMakeFiles/objects.dir/Object.cpp.o CMakeFiles/objects.dir/main.cpp.o 
